@@ -22,7 +22,7 @@ MonoBehaviour:
     maxSimultaneousObjectTargets: 1
     virtualSceneScaleFactor: 1
     useDelayedLoadingObjectTargets: 0
-    modelTargetRecoWhileExtendedTracked: 1
+    modelTargetRecoWhileExtendedTracked: 0
     shareRecordingsInITunes: 0
     version: 10.5.5
     eulaAcceptedVersions: '{"Values":["9.8","0.0","10.3","10.5"]}'

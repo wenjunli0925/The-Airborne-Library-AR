@@ -18,7 +18,7 @@ public class Trans_Morse : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float t = Mathf.InverseLerp(0f, 0.2f, gameObject.transform.position.y);
+        float t = Mathf.InverseLerp(0f, 0.15f, gameObject.transform.position.y);
         float alpha = Mathf.Lerp(0, 1, t);
         ChangeAlpha(currentMat, alpha);
         //Debug.Log(alpha);
